@@ -1,0 +1,59 @@
+name: scrna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Python 包
+  - python>=3.9
+  - scanpy=1.10.4
+  - pandas=2.3.3
+  - numpy=2.0.2
+  - scipy=1.14.1
+  - matplotlib=3.9.3
+  - seaborn=0.13.2
+  - gseapy=1.1.3
+
+  # R 及 R 包
+  - r-base>=4.0
+  - r-seurat=4.0.0
+  - r-sctransform=0.4.2
+  - bioconductor-singlecellexperiment=1.28.0
+  - r-doubletfinder=2.0.3
+  - bioconductor-scdblfinder=1.20.0
+  - r-harmony=1.2.3
+  - r-presto=1.0.0
+  - bioconductor-mast=1.32.0
+  - r-rstatix=0.7.2
+  - r-dplyr=1.1.4
+  - r-tidyr=1.3.1
+  - r-tidyverse=2.0.0
+  - r-data.table=1.17.8
+  - r-matrix=1.7.4
+  - r-stringr=1.5.1
+  - r-magrittr=2.0.3
+  - r-purrr=1.1.0
+  - r-ggplot2=4.0.0
+  - r-rcolorbrewer=1.1.3
+  - r-pheatmap=1.0.12
+  - r-ggsignif=0.6.4
+  - r-ggpubr=0.6.0
+  - r-gridextra=2.3
+  - r-patchwork=1.3.2
+  - r-ggrepel=0.9.6
+  - r-reshape2=1.4.4
+  - r-ggfun=0.1.8
+  - r-ggsci=3.2.0
+  - bioconductor-biomart=2.62.0
+  - bioconductor-geoquery=2.74.0
+  - r-enrichr=3.2
+  - bioconductor-biocparallel=1.40.0
+  - r-future=1.67.0
+  - r-furrr=0.3.1
+  - r-reticulate=1.44.0
+  - r-readxl=1.4.3
+  - r-writexl=1.5.4
+  - r-rsvd=1.0.5
+
+  # 需要通过其他方式安装的包(在 pip 或 GitHub)
+  # scRNAtoolVis, SeuratExtend, Rmagic 可能需要从 GitHub 安装
