@@ -110,19 +110,6 @@ FigS11.R        # Supplementary Figure 11: IGF1 signaling receptor expression
 - **Metadata** (`.txt`, `.csv`): Sample information, clinical annotations
 - **Expression matrices**: Gene expression count tables
 
-### Data Organization:
-```
-data/
-├── combined.RDS                  # All cells, integrated dataset
-├── granu.RDS                     # Granulocyte subset
-├── macro.RDS                     # Macrophage subset (baseline)
-├── macroTreat.RDS               # Macrophage subset (post-treatment)
-├── Bsub.RDS                     # B cell and Plasma cell subset
-├── TNK.RDS                      # T & NK cell subset
-├── fibro.RDS                    # Fibroblast subset
-├── S4_*.h5ad                    # Python-processed data for S4
-└── metadata.txt                  # Sample metadata
-```
 
 ---
 
